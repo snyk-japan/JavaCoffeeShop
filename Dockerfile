@@ -1,4 +1,4 @@
-FROM maven:latest
+FROM maven:3.10.0-eclipse-temurin-27-resolute
 RUN mkdir /usr/src/project
 COPY . /usr/src/project
 WORKDIR /usr/src/project
